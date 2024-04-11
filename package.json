@@ -1,0 +1,39 @@
+{
+    "name": "alex",
+    "version": "0.0.1",
+    "author": "alex",
+    "description": "main site",
+    "license": "UNLICENSED",
+    "scripts": {
+        "dev": "webpack serve --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js",
+        "preview": "yarn build && cd ./dist && http-server"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.7",
+        "copy-webpack-plugin": "^10.2.0",
+        "css-loader": "^6.5.1",
+        "css-minimizer-webpack-plugin": "^3.3.1",
+        "cssnano": "^5.1.11",
+        "html-loader": "^3.1.0",
+        "html-minimizer-webpack-plugin": "^3.5.0",
+        "html-webpack-plugin": "^5.5.0",
+        "http-server": "^14.1.0",
+        "mini-css-extract-plugin": "^2.4.7",
+        "postcss": "^8.4.14",
+        "postcss-loader": "^7.0.0",
+        "sass": "^1.45.0",
+        "sass-loader": "^12.4.0",
+        "style-loader": "^3.3.1",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.4.5",
+        "webpack": "^5.65.0",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.6.0",
+        "webpack-merge": "^5.8.0"
+    },
+    "dependencies": {
+        "pixi.js": "^7.3.0",
+        "revolt-fx": "^1.3.4"
+    }
+}
