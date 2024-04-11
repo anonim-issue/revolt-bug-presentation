@@ -1,6 +1,6 @@
 `yarn install`
 
-`yarn dev`
+`yarn dev` - http://localhost:3020/
 
 `yarn build`
 
