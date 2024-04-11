@@ -34,6 +34,6 @@
     },
     "dependencies": {
         "pixi.js": "^7.3.0",
-        "revolt-fx": "^1.3.4"
+        "revolt-fx": "file:local_modules/revolt-fx"
     }
 }
