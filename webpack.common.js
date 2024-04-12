@@ -61,6 +61,17 @@ module.exports = (_env, argv) => {
                     loader: "html-loader",
                 },
                 {
+                    test: /\.s[ac]ss$/i,
+                    use: [
+                        devMode ? "style-loader" : MiniCssExtractPlugin.loader,
+                        // Translates CSS into CommonJS
+                        "css-loader",
+                        // Compiles Sass to CSS
+                        "sass-loader",
+                        'postcss-loader'
+                    ]
+                },
+                {
                     test: /\.(svg|png|json)(\?v=\d+\.\d+\.\d+)?$/,
                     type: 'asset/resource',
                     generator: {
