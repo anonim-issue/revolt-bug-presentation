@@ -35,6 +35,6 @@
     },
     "dependencies": {
         "pixi.js": "^7.3.0",
-        "revolt-fx": "^1.3.4"
+        "revolt-fx": "github:bma73/revolt-fx#clone_settings"
     }
 }
