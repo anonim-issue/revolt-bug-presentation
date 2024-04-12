@@ -20,11 +20,11 @@
           "height": 100
         }
       },
-      "spawnFrequencyMin": 0.1,
-      "spawnFrequencyMax": 0.1,
-      "maxParticles": 20,
-      "spawnCountMin": 4,
-      "spawnCountMax": 9,
+      "spawnFrequencyMin": 0.001,
+      "spawnFrequencyMax": 0.05,
+      "maxParticles": 1400,
+      "spawnCountMin": 30,
+      "spawnCountMax": 50,
       "duration": 0,
       "infinite": true,
       "useGravity": true,
