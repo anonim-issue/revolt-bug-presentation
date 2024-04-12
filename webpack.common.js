@@ -12,13 +12,6 @@ function generateTemplates () {
             filename: `${name}.html`,
             chunks: [`${name}`],
         }));
-        if (fs.existsSync(path.resolve(__dirname, `src/views/${name}/index.en.html`))) {
-            pages.push(new HtmlWebpackPlugin({
-                template: `./src/views/${name}/index.en.html`,
-                filename: `${name}.html`,
-                chunks: [`${name}`],
-            }));
-        }
     });
     return pages;
 }
